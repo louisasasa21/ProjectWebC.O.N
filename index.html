@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <a href="#">NUKAMO</a>
+        </div>
+
+        <ul class="menu">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">PORTFOLIO</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <!-- ข้อมูลheader slideshow img เนื้อหานิดหน่อย ในส่วนนี้มีใช้ Js. -->
+    <header>
+        <section class="manga">
+            <div class="slideshow-container">
+                <div class="manga-mySlide fade">
+                   <div class="manga-bg">
+                        <img src="/img/img-tokyo ghoul/435648-Kaneki-Ken-Tokyo-Ghoul-Tokyo-Ghoulre-manga-arima.png" alt="">
+                   </div>
+                    
+                    <div class="manga-img">
+                        <img src="/img/img-profile/37277.jpg" alt="">
+                    </div>
+               
+                    <div class="manga-info">
+                        <h1>Sui Ishida</h1>
+                        <p>Sui Ishida is best known for his dark fantasy series Tokyo Ghoul, a story about a young man named Ken Kaneki who gets transformed into a ghoul after encountering one. The series then ran from 2011 to 2014 in Shueisha's Weekly Young Jump magazine, and was later adapted into a light novel and anime series in 2014.[2][3] The manga was also translated into English where it topped The New York Times Best Seller list in 2015.[4] A prequel titled Tokyo Ghoul [Jack] was briefly serialized digitally on Jump Live in 2013. In 2014, he began a sequel titled Tokyo Ghoul:re. In 2017, a live-action adaptation of Tokyo Ghoul was released theatrically in Japan.[5] In March 2018, an anime adaptation for Tokyo Ghoul:re began to air with a second season released in October 2018.</p>
+                        <!-- <a href="#" class="manga-btn">Learn more</a> -->
+                    </div> 
+                </div>
+                
+                <div class="manga-mySlide fade">
+                   <div class="manga-bg">
+                        <img src="/img/img-berserk/fantasy-art-berserk-demon-sword-hd-wallpaper-preview.jpg" alt="">
+                   </div>
+                    
+                    <div class="manga-img">
+                        <img src="/img/img-profile/Kentaromiura.jpg" alt="">
+                    </div>
+               
+                    <div class="manga-info">
+                        <h1>Kentaro Miura</h1>
+                        <p>Berserk (Japanese: ベルセルク, Hepburn: Beruseruku) is a Japanese manga series written and illustrated by Kentaro Miura. Set in a medieval Europe-inspired dark fantasy world, the story centers on the characters of Guts, a lone swordsman, and Griffith, the leader of a mercenary band called the "Band of the Hawk". Miura premiered a prototype of Berserk in 1988. The series began the following year in the Hakusensha's now-defunct magazine Monthly Animal House, which was replaced in 1992 by the semimonthly magazine Young Animal, where Berserk has continued its publication. Following Miura's death in May 2021, the final chapter that he wrote and illustrated was published posthumously in September of the same year; the series resumed in June 2022, under supervision of Miura's fellow manga artist and childhood friend Kouji Mori [ja] and Miura's group of assistants and apprentices from Studio Gaga.</p>
+                        <!-- <a href="#" class="manga-btn">Learn more</a> -->
+                    </div> 
+                </div>
+               
+                <div class="manga-mySlide fade">
+                   <div class="manga-bg">
+                        <img src="/img/img-vagabond/2022.12.08-05.17-boundingintocomics-6391736260d29.jpg" alt="">
+                   </div>
+                    
+                    <div class="manga-img">
+                        <img src="/img/img-profile/Takehiko_inoue.webp" alt="">
+                    </div>
+               
+                    <div class="manga-info">
+                        <h1>Takehiko Inoue</h1>
+                        <p>Vagabond (Japanese: バガボンド, Hepburn: Bagabondo) is a Japanese epic martial arts manga series written and illustrated by Takehiko Inoue. It portrays a fictionalized account of the life of Japanese swordsman Musashi Miyamoto, based on Eiji Yoshikawa's novel Musashi. It has been serialized in Kodansha's seinen manga magazine Morning since September 1998, with its chapters collected in 37 tankōbon volumes as of July 2014. Viz Media licensed the series for English release in North America and has published the current 37 volumes as of April 2015. The series is currently on an extended hiatus, with the latest chapter released in May 2015.</p>
+                        <!-- <a href="#" class="manga-btn">Learn more</a> -->
+                    </div> 
+                </div>
+                    <!-- มีการเรียนใช้ function plusSlide-currentSlide ใช้รวมกับ Js. ในprev, next, และdot
+                    รวมออโต้ด้วย -->
+                <a class="prev" onclick="plusSlide(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlide(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <div class="dots" style="text-align:center">
+                <span class="dot active" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+                <!-- จบตรงนี้ -->
+
+        </section>
+    </header>
+
+    <br>
+    <section class="content">
+        <div class="content-items">
+            <h3>Content</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores magni dicta odit optio unde, recusandae ad sed animi, facilis quaerat possimus modi voluptas. Deleniti odio sit impedit sapiente debitis adipisci?</p>
+        </div>
+        
+        <div class="content-items">
+            <h3>Content</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quas sed, praesentium non ab aperiam et, dolore at molestiae sapiente amet asperiores dicta quia voluptatem ratione iusto labore animi obcaecati?</p>
+        </div>
+
+        <div class="content-items">
+            <h3>Content</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quas sed, praesentium non ab aperiam et, dolore at molestiae sapiente amet asperiores dicta quia voluptatem ratione iusto labore animi obcaecati?</p>
+        </div>
+
+    </section>
+
+
+    <div class="footer-top">
+        <div class="container">
+            <div class="footer-top-con">
+                <div class="footer-top-item">
+                    <h4>Latest Posts</h4>
+                    <div class="footer-top-item-con">
+                        <div class="date">
+                            Jul. <br>
+                            7
+                        </div>
+                        <div class="info">
+                            <span class="info-title">Lorem ipsum dolor sit amet.</span>
+                            <span class="info-desc">Lorem ipsum dolor sit amet consectetur.</span>
+                        </div>
+                    </div>
+
+                    <div class="footer-top-item-con">
+                        <div class="date">
+                            Jul. <br>
+                            7
+                        </div>
+                        <div class="info">
+                            <span class="info-title">Lorem ipsum dolor sit amet.</span>
+                            <span class="info-desc">Lorem ipsum dolor sit amet consectetur.</span>
+                        </div>
+                    </div>
+
+                    <div class="footer-top-item-con">
+                        <div class="date">
+                            Jul. <br>
+                            7
+                        </div>
+                        <div class="info">
+                            <span class="info-title">Lorem ipsum dolor sit amet.</span>
+                            <span class="info-desc">Lorem ipsum dolor sit amet consectetur.</span>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="footer-top-item">
+                    <h4>About</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, et consequatur? Nemo, soluta delectus possimus temporibus animi magnam ad veritatis veniam aliquid excepturi dolorum! Sequi ratione ipsam autem iure optio voluptatibus ab magni eveniet quisquam est officiis perspiciatis inventore deleniti mollitia, velit dignissimos. Quas rerum impedit voluptatum ab sint dignissimos.</p>
+                </div>
+              
+                <div class="footer-top-item">
+                    <h4>Stay Connected</h4>
+                    <p><i class="fa fa-facebook-square" aria-hidden="true"></i> Facebook</p>
+                    <p><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter</p>
+                    <p><i class="fa fa-rss-square" aria-hidden="true"></i> RSS</p>
+                    <p><i class="fa fa-google-plus-square" aria-hidden="true"></i> Google+</p>
+                </div>
+
+            </div>
+        </div>
+   </div>
+
+
+    <footer>
+        <p>&copy; 2023</p>
+    </footer>
+
+
+
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
